@@ -6,6 +6,10 @@ public class Rettangolo {
 	
 	public Rettangolo() {	
 	}
+	
+	public int calcolaArea() {
+		return base*altezza;
+	}
 
 	public int getBase() {
 		return base;
